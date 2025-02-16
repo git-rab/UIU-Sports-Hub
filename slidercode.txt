@@ -1,0 +1,63 @@
+<div class="container-fluid">
+    <!-- Quotes Slider -->
+    <div class="quotes-slider">
+        <div class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</div>
+        <div class="quote">"The only way to do great work is to love what you do." - Steve Jobs</div>
+        <div class="quote">"Believe you can and you're halfway there." - Theodore Roosevelt</div>
+        <!-- Add more quotes here -->
+    </div>
+    <!-- Prayer Times -->
+    <div class="row">
+        <!-- Prayer time columns as in your previous code -->
+    </div>
+</div>
+
+
+/* Add this CSS to your existing stylesheet */
+.quotes-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: slide 20s linear infinite;
+}
+
+.quote {
+    display: inline-block;
+    margin-right: 20px;
+    font-style: italic;
+}
+
+@keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+
+<div id="quotesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="quote">"The only way to do great work is to love what you do." - Steve Jobs</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="quote">"Believe you can and you're halfway there." - Theodore Roosevelt</div>
+                </div>
+                <!-- Add more quotes here -->
+            </div>
+            
+        </div>
+
+
+
+football, basketball, cricket_bat, cricket_ball, table_tennis, badminton
+
+venue, status, time
+
+
+
+uiu hub click code
+
+
+
